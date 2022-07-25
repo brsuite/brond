@@ -60,7 +60,7 @@ var (
 type BroneesPerByte float64
 
 //BronPerKilobyte is number with units of brocoins per kilobyte.
-typeBronPerKilobyte float64
+type BronPerKilobyte float64
 
 // ToBronPerKb returns a float value that represents the given
 // BroneesPerByte converted to bronees per kb.
