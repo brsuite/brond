@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	// defaultMaxFeeRate is the default maximum fee rate in sat/KB enforced
+	// defaultMaxFeeRate is the default maximum fee rate in bro/KB enforced
 	// by brocoind v0.19.0 or after for transaction broadcast.
 	defaultMaxFeeRate = bronutil.BroneesPerBrocoin / 10
 )

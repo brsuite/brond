@@ -358,7 +358,7 @@ func (h *Harness) SendOutputs(targetOutputs []*wire.TxOut,
 
 // SendOutputsWithoutChange creates and sends a transaction that pays to the
 // specified outputs while observing the passed fee rate and ignoring a change
-// output. The passed fee rate should be expressed in sat/b.
+// output. The passed fee rate should be expressed in bro/b.
 //
 // This function is safe for concurrent access.
 func (h *Harness) SendOutputsWithoutChange(targetOutputs []*wire.TxOut,

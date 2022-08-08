@@ -1214,8 +1214,8 @@ func (mp *TxPool) maybeAcceptTransaction(tx *bronutil.Tx, isNew, rateLimit, reje
 	// mempool. If it ended up replacing any transactions, we'll remove them
 	// first.
 	for _, conflict := range conflicts {
-		log.Debugf("Replacing transaction %v (fee_rate=%v sat/kb) "+
-			"with %v (fee_rate=%v sat/kb)\n", conflict.Hash(),
+		log.Debugf("Replacing transaction %v (fee_rate=%v bro/kb) "+
+			"with %v (fee_rate=%v bro/kb)\n", conflict.Hash(),
 			mp.pool[*conflict.Hash()].FeePerKB, tx.Hash(),
 			txFee*1000/serializedSize)
 
