@@ -40,7 +40,7 @@ const (
 
 	// baseSubsidy is the starting subsidy amount for mined blocks.  This
 	// value is halved every SubsidyHalvingInterval blocks.
-	baseSubsidy = 50 * bronutil.BroneesPerBrocoin
+	baseSubsidy = 50 * COIN
 )
 
 var (
